@@ -34,6 +34,6 @@
     [alerta addButtonWithTitle:@"Aceptar"];
     [alerta setMessageText:[NSString stringWithFormat:@"El resultado es: %@ 🤟", resultado]];
     [alerta setAlertStyle:NSAlertStyleInformational];
-    [alerta runModal]; 
+    [alerta runModal];
 }
 @end
